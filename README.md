@@ -1,22 +1,37 @@
 # 🛡️ Fraud Detection Predictor
 
-A Machine Learning project that predicts whether a financial transaction is fraudulent or legitimate. The project includes data preprocessing, feature engineering, model training, evaluation, and a Streamlit web application for real-time predictions.
+A Machine Learning project that predicts whether a financial transaction is **fraudulent or legitimate** using supervised learning. The project covers the complete ML workflow—from data preprocessing and feature engineering to model deployment with an interactive Streamlit web application for real-time predictions.
+
+---
 
 ## 📌 Overview
 
-Financial fraud has become a significant challenge in digital transactions. This project uses supervised machine learning techniques to classify transactions as fraudulent or non-fraudulent based on transaction features.
+Financial fraud is one of the biggest challenges in digital payment systems. This project leverages machine learning techniques to classify transactions as fraudulent or legitimate based on transaction-related features. The application is deployed using Streamlit, allowing users to make instant predictions through a simple web interface.
+
+---
+
+## 🌐 Live Demo
+
+🚀 **Try the App Here:**  
+[Fraud Detection Predictor](https://frauddetectionpredictor-huxtxgrnpxfjbjyybqhuu2.streamlit.app/)
+
+
+
 
 ## 🚀 Features
 
 - Data preprocessing and cleaning
+- Exploratory Data Analysis (EDA)
 - Feature engineering
 - Handling class imbalance
 - One-Hot Encoding for categorical features
 - Feature Scaling
 - Machine Learning classification model
-- Model evaluation using classification metrics
+- Model evaluation using multiple metrics
 - Interactive Streamlit web application
 - Real-time fraud prediction
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -29,9 +44,11 @@ Financial fraud has become a significant challenge in digital transactions. This
 - Streamlit
 - Joblib
 
+---
+
 ## 📂 Project Structure
 
-```
+```text
 Fraud-Detection-Predictor/
 │
 ├── fraud_detection.py      # Streamlit application
@@ -42,6 +59,8 @@ Fraud-Detection-Predictor/
 └── dataset.csv
 ```
 
+---
+
 ## 📊 Machine Learning Pipeline
 
 1. Data Cleaning
@@ -50,7 +69,9 @@ Fraud-Detection-Predictor/
 4. Data Preprocessing
 5. Model Training
 6. Model Evaluation
-7. Model Deployment using Streamlit
+7. Streamlit Deployment
+
+---
 
 ## 📈 Evaluation Metrics
 
@@ -60,42 +81,54 @@ Fraud-Detection-Predictor/
 - F1-Score
 - Confusion Matrix
 
+---
+
 ## ▶️ Running the Project
 
-### Clone the repository
+### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/fraud-detection-predictor.git
+git clone https://github.com/yashascitomar18/Fraud-Detection-Predictor.git
 ```
 
-### Install dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the Streamlit app
+### Run the Streamlit Application
 
 ```bash
 streamlit run fraud_detection.py
 ```
 
-## 📷 Demo
+---
 
-Add screenshots of your Streamlit application here.
+## 📷 Application Screenshots
 
-## Future Improvements
+### Home Page
 
-- Deep Learning-based fraud detection
-- Real-time transaction monitoring
-- Explainable AI (SHAP/LIME)
-- Cloud deployment
-- REST API integration
+![Home Page](Screenshot 2026-07-01 125401.png)
 
-## Author
 
-**Yashasvi Tomar**
+### Fraud Prediction Example
+
+![Fraud Prediction](Screenshot 2026-07-01 125440.png)
 
 ---
 
-⭐ If you found this project useful, consider giving it a star!
+## 🔮 Future Improvements
+
+- Deep Learning-based fraud detection
+- Explainable AI (SHAP/LIME)
+- REST API integration
+- Cloud deployment (AWS/GCP/Azure)
+- Real-time transaction monitoring
+
+---
+
+## 👨‍💻 Author
+
+**Yashasvi Tomar**
+
