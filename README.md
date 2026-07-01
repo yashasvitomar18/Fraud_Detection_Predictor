@@ -18,7 +18,18 @@ Financial fraud is one of the biggest challenges in digital payment systems. Thi
 | 💻 Source Code | https://github.com/yashasvitomar18/Fraud-Detection-Predictor |
 
 
+### Home Page
 
+![Home](assets/home.png)
+
+
+### Prediction Result
+
+![Prediction](assets/prediction.png)
+
+### Fraud Detection
+
+![Result](assets/Fraud_detect.png)
 
 ## 🚀 Features
 
