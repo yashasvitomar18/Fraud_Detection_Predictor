@@ -53,9 +53,14 @@ Financial fraud is one of the biggest challenges in digital payment systems. Thi
 ```text
 Fraud-Detection-Predictor/
 │
-├── fraud_detection.py      # Streamlit application
-├── model.pkl               # Trained ML model
-├── preprocessor.pkl        # Data preprocessing pipeline
+├── assets/
+│   ├── home.png
+│   ├── prediction.png
+│   └── result.png
+│
+├── fraud_detection.py          # Streamlit application
+├── fraud_detection_pipeline.pkl # Trained ML pipeline
+├── analysis_model.ipynb        # Model development notebook
 ├── requirements.txt
 ├── README.md
 └── dataset.csv
@@ -90,7 +95,7 @@ Fraud-Detection-Predictor/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yashascitomar18/Fraud-Detection-Predictor.git
+git clone https://github.com/yashasvitomar18/Fraud-Detection-Predictor.git
 ```
 
 ### Install Dependencies
