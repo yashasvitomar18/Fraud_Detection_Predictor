@@ -10,10 +10,12 @@ Financial fraud is one of the biggest challenges in digital payment systems. Thi
 
 ---
 
-## 🌐 Live Demo
+## 🔗 Live Application
 
-🚀 **Try the App Here:**  
-[Fraud Detection Predictor](https://frauddetectionpredictor-huxtxgrnpxfjbjyybqhuu2.streamlit.app/)
+| Resource | Link |
+|----------|------|
+| 🌐 Live App | (https://frauddetectionpredictor-huxtxgrnpxfjbjyybqhuu2.streamlit.app/) |
+| 💻 Source Code | https://github.com/yashasvitomar18/Fraud-Detection-Predictor |
 
 
 
@@ -103,20 +105,6 @@ pip install -r requirements.txt
 streamlit run fraud_detection.py
 ```
 
----
-
-## 📷 Application Screenshots
-
-### Home Page
-
-![Home Page](Screenshot 2026-07-01 125401.png)
-
-
-### Fraud Prediction Example
-
-![Fraud Prediction](Screenshot 2026-07-01 125440.png)
-
----
 
 ## 🔮 Future Improvements
 
